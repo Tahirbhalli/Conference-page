@@ -53,12 +53,13 @@ a:hover {
 }
 
 .text-heading {
+    background-image: url('../assets/logo.png');
+    background-position: bottom right;
     font-weight: bolder;
     text-transform: uppercase;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: url('../assets/logo.png');
-    background-position: bottom right;
+
 }
 
 .headings div {
@@ -77,18 +78,87 @@ a:hover {
 
 .main {
     background-image: url('../assets/main-back.jpg');
-    color: #9a9a9a;
+    color: #ffdbdb;
 }
 
 .main div h2 {
     padding-bottom: 5px;
 }
 
+.information {
+    justify-content: space-around;
+}
+
+.information div i {
+    font-size: 5vw;
+}
+
+.information div {
+    background: linear-gradient(-45deg, #ee7752, #862d4f, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.shapes button{
+    display: none;
+}
+.shapes {
+    display: grid;
+}
+
+.shapes a {
+    text-align: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+    .information div {
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .information h3 {
+        font-size: 1rem !important;
+        margin-left: 10px;
+    }
+    
+    .information div i {
+        padding-right: 5px;
+    }
+
+    .information span {
+        margin-left: 5px;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .headings div {
         width: 100% !important;
     }
+    
 }
+
+@media screen and (max-width: 750px) {
+    .shapes button{
+        display: grid;
+    }
+
+    .shapes a {
+        display: none;
+    }
+}
+
 
 @media screen and (max-width: 1178px) {
     header {
@@ -96,10 +166,10 @@ a:hover {
     }
 
     .burger {
+        color: black;
         display: inherit !important;
         font-size: 2rem;
         padding-left: 1rem;
-        color: black;
     }
 
     .burger:hover {
