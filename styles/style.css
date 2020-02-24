@@ -32,3 +32,24 @@ a:hover {
     color: white !important;
     background-color: red;
 }
+
+.burger {
+    display: none !important;
+}
+
+@media screen and (max-width: 1178px) {
+    nav {
+        display: none !important;
+    }
+
+    .burger {
+        display: inherit !important;
+        font-size: 2rem;
+        padding-left: 1rem;
+        color: black;
+    }
+
+    .burger:hover {
+        color: lightcoral;
+    }
+}
