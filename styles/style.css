@@ -10,8 +10,17 @@ a:hover {
     text-decoration: none;
 }
 
+.fir-nav ul a {
+    padding-right: 10px;
+}
+
 .logo-margin-left {
-    margin-left: 5.5rem !important;
+    margin-left: 6.5rem !important;
+}
+
+.img-logo {
+    margin-top: 5px;
+    height: 44px;
 }
 
 .sec-nav a {
@@ -37,8 +46,32 @@ a:hover {
     display: none !important;
 }
 
+.intro {
+    background: linear-gradient(282deg, #00dda9, #7fb8aa , #3b6b5f);
+    background-size: 800% 800%;
+    /*background-color: lightslategray;
+    background-image: url('../assets/summit-background.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;*/
+    height: 1000px;
+    width: 100%;
+}
+
+.text-heading {
+    text-transform: uppercase;
+	background: linear-gradient(to right, rgb(223, 125, 125) 0%, #911010 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5vw;
+    font-weight: bolder;
+}
+
+.headings {
+    text-align: center;
+}
+
 @media screen and (max-width: 1178px) {
-    nav {
+    header {
         display: none !important;
     }
 
@@ -50,6 +83,6 @@ a:hover {
     }
 
     .burger:hover {
-        color: lightcoral;
+        color: white;
     }
 }
