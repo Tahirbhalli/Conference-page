@@ -142,6 +142,28 @@ a:hover {
     }
 }
 
+.persons div {
+    background-image: url('../assets/logo.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.heading-speaker {
+    color: red;
+}
+
+.persons div img {
+    border-radius: 5%;
+    height: 70%;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.persons div div {
+    background: none;
+}
+
 @media screen and (max-width: 450px) {
     .headings div {
         width: 100% !important;
@@ -155,6 +177,21 @@ a:hover {
 
     .shapes a {
         display: none;
+    }
+
+    .persons div {
+        background-size: 50px;
+        display: flex;
+    }
+
+    .persons div img {
+        width: 25%;
+    }
+
+    .persons div div {
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-top: 10px;
     }
 }
 
