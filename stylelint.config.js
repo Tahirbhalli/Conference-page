@@ -108,4 +108,3 @@ module.exports = {
       "value-list-max-empty-lines": 0,
   },
 }
-<script src=”https://gist.github.com/kilonzi/5fd28ec4daf7fac277f0233e65efe1fa.js"></script>
