@@ -166,6 +166,10 @@ footer {
     margin-bottom: 5px;
   }
 
+  footer img {
+    width: 50%;
+  }
+
   .information h3 {
     font-size: 1rem !important;
     margin-left: 10px;
