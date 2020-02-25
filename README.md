@@ -1,7 +1,7 @@
 # Conference-page
 ![screenshot](./screenshot.png)
 
-The page tries to replicate as much as possible of this [News week](https://www.newsweek.com/) page.
+This is the solo project for Pakistan Summit 2020. Which is build with HTML 5 and CSS 3 and Bootstrap 4
 
 ## Built With
 
@@ -10,7 +10,7 @@ The page tries to replicate as much as possible of this [News week](https://www.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Tahirbhalli/news-week/f2d132b48220e28e1627c315f77cf2676374c77c/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Tahirbhalli/Conference-page/daf10fbc3ced1e759bc73c6dbcf9e513299ac794/index.html)
 
 
 ## Authors
