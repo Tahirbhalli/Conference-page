@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', ;
+  font-family: 'Lato',;
 }
 
 a {
@@ -59,7 +59,6 @@ a:hover {
     text-transform: uppercase;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 .headings div {
@@ -99,7 +98,7 @@ a:hover {
 	animation: gradient 15s ease infinite;
 }
 
-.shapes button{
+.shapes button {
     display: none;
 }
 .shapes {
