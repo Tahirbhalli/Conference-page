@@ -10,6 +10,14 @@ a:hover {
   text-decoration: none;
 }
 
+.sec-nav a {
+  color: #272a31;
+}
+
+.shapes a {
+  text-align: center;
+}
+
 .fir-nav ul a {
   padding-right: 10px;
 }
@@ -21,25 +29,6 @@ a:hover {
 .img-logo {
   margin-top: 5px;
   height: 44px;
-}
-
-.sec-nav a {
-  color: #272a31;
-}
-
-.sec-nav a:hover {
-  color: red !important;
-}
-
-.sec-nav a:last-child {
-  border: 2px solid red;
-  border-radius: 10%;
-  color: red;
-}
-
-.sec-nav a:hover:last-child {
-  background-color: red;
-  color: white !important;
 }
 
 .burger {
@@ -68,6 +57,21 @@ a:hover {
 
 .fir {
   margin-right: 1rem;
+}
+
+.sec-nav a:hover {
+  color: red !important;
+}
+
+.sec-nav a:last-child {
+  border: 2px solid red;
+  border-radius: 10%;
+  color: red;
+}
+
+.sec-nav a:hover:last-child {
+  background-color: red;
+  color: white !important;
 }
 
 .sec {
@@ -117,10 +121,6 @@ a:hover {
 
 .shapes {
   display: grid;
-}
-
-.shapes a {
-  text-align: center;
 }
 
 @keyframes gradient {
