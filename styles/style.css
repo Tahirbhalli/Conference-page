@@ -47,7 +47,7 @@ a:hover {
 }
 
 .intro {
-    background: linear-gradient(282deg, #00dda9, #7fb8aa , #3b6b5f);
+    background: linear-gradient(282deg, #00dda9, #7fb8aa, #3b6b5f);
     background-size: 800% 800%;
     width: 100%;
 }
@@ -60,6 +60,22 @@ a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.persons button {
+    display: none;
+    place-content: center;
+}
+
+.fir {
+    margin-right: 1rem;
+}
+
+
+.sec {
+    margin-left: 5rem;
+}
+
+
 
 .headings div {
     color: black;
@@ -163,6 +179,19 @@ a:hover {
     background: none;
 }
 
+.partner-logo {
+    padding-bottom: 6rem !important;
+}
+
+footer {
+    justify-content: center;
+}
+
+.partner-logo div img {
+    width: 40%;
+    height: 100px;
+}
+
 @media screen and (max-width: 450px) {
     .headings div {
         width: 100% !important;
@@ -172,6 +201,15 @@ a:hover {
 @media screen and (max-width: 750px) {
     .shapes button {
         display: grid;
+    }
+
+    footer img {
+        width: 50%;
+    }
+
+    .persons button {
+        display: inherit;
+        width: 100%;
     }
 
     .shapes a {
@@ -198,6 +236,14 @@ a:hover {
 @media screen and (max-width: 1178px) {
     header {
         display: none !important;
+    }
+
+    .fir {
+        margin-right: 0;
+    }
+
+    .sec {
+        margin-left: 0;
     }
 
     .burger {
