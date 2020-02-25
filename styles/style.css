@@ -70,12 +70,9 @@ a:hover {
   margin-right: 1rem;
 }
 
-
 .sec {
   margin-left: 5rem;
 }
-
-
 
 .headings div {
   color: black;
@@ -117,6 +114,7 @@ a:hover {
 .shapes button {
   display: none;
 }
+
 .shapes {
   display: grid;
 }
@@ -127,29 +125,29 @@ a:hover {
 
 @keyframes gradient {
   0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 
-  50% {  
-  	background-position: 100% 50%;
+  50% {
+    background-position: 100% 50%;
   }
 
   100% {
-  	background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .information div {
-     align-items: center;
-     margin-bottom: 5px;
+    align-items: center;
+    margin-bottom: 5px;
   }
 
   .information h3 {
-      font-size: 1rem !important;
-      margin-left: 10px;
+    font-size: 1rem !important;
+    margin-left: 10px;
   }
-    
+
   .information div i {
     padding-right: 5px;
   }
@@ -233,7 +231,6 @@ footer {
     padding-top: 10px;
   }
 }
-
 
 @media screen and (max-width: 1178px) {
   header {
