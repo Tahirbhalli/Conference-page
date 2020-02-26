@@ -269,6 +269,10 @@ footer {
     display: none !important;
   }
 
+  marquee {
+    display: none !important;
+  }
+
   .fir {
     margin-right: 0;
   }
