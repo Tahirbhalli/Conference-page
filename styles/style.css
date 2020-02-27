@@ -1,3 +1,14 @@
+html {
+  font-family: 'Lato', 'cocogoose', sans-serif;
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  src: url('cocogoose/Cocogoose\ Pro-trial.ttf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 a {
   text-decoration: none;
 }
@@ -60,13 +71,33 @@ main {
 }
 
 .sec-nav a:hover {
-  color: red !important;
+  color: #ec5242 !important;
+}
+
+.text-red {
+  color: #ec5242 !important;
+}
+
+.description {
+  color: #272a31;
+}
+
+.headings span {
+  font-size: x-large;
+}
+
+.information div span {
+  color: #d3d3d3;
+}
+
+.hide {
+  display: none;
 }
 
 .sec-nav a:last-child {
   border: 2px solid red;
   border-radius: 10%;
-  color: red;
+  color: #ec5242;
 }
 
 .sec-nav a:hover:last-child {
@@ -82,10 +113,6 @@ main {
   color: black;
   background-color: cadetblue;
   display: inline-flex;
-}
-
-.headings span {
-  font-size: x-large;
 }
 
 .headings {
@@ -201,7 +228,7 @@ footer {
 }
 
 .heading-speaker {
-  color: red;
+  color: #ec5242;
 }
 
 .persons div img {
@@ -234,6 +261,10 @@ footer {
 @media screen and (max-width: 750px) {
   .shapes button {
     display: grid;
+  }
+
+  .hide {
+    display: inherit;
   }
 
   footer img {
