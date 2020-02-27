@@ -258,6 +258,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .align-center {
+    margin: 0 193px;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .shapes button {
     display: grid;
