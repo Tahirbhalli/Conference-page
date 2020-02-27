@@ -4,12 +4,20 @@
 ![mobile](./screen2.png)
 ![mobile](./screen3.png)
 
-This is the solo project for Pakistan Summit 2020. Which is build with HTML 5 and CSS 3 and Bootstrap 4
+This is the solo project for Pakistan Summit 2020. Which is build with HTML 5 and CSS 3 and Bootstrap 4. 
+
 
 ## Built With
 
 - Html,
 - CSS
+
+## Fonsts
+
+-Lato 
+-cocogoose
+
+
 
 ## Live Demo
 
