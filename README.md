@@ -26,9 +26,7 @@ This is the solo project for Pakistan Summit 2020. Which is build with HTML 5 an
 ## Live Video Presentation
 [Video Demo](https://www.loom.com/share/d1a829ada3f44da58a01b9866b9575f7)
 
-## Authors
-
-👤 **Author1**
+👤 **Author**
 
 - Github: [Tahir Ahmad](https://github.com/tahirbhalli/)
 
