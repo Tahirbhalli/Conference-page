@@ -1,5 +1,6 @@
 body {
   font-family: 'Lato', 'cocogoose', sans-serif;
+  color: #d3d3d3 !important;
 }
 
 @font-face {
@@ -47,8 +48,8 @@ main {
 }
 
 .intro {
-  background: linear-gradient(282deg, #00dda9, #7fb8aa, #3b6b5f);
-  background-size: 800% 800%;
+  background: linear-gradient(282deg, #d3d3d3, #7fb8aa, #3b6b5f);
+  background-size: 110% 110%;
   width: 100%;
 }
 
@@ -178,6 +179,7 @@ footer {
 }
 
 .background-img {
+  background-color: cadetblue;
   background-image: url('../assets/logo.png');
   background-position: top right;
   background-repeat: no-repeat;
@@ -262,7 +264,7 @@ footer {
   .align-center {
     margin: 0 193px;
   }
-  
+
   .pad-left {
     padding-left: 8px;
   }
