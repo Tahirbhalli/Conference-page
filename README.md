@@ -21,7 +21,7 @@ This is the solo project for Pakistan Summit 2020. Which is build with HTML 5 an
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Tahirbhalli/Conference-page/9351dd1dffac0716abd1bcd910c2869de27ec0fa/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Tahirbhalli/Conference-page/fb19fc59cef5ceaa9d0ea92e5d0015a59388361a/index.html)
 
 ## Live Video Presentation
 [Live Video Demo](https://www.loom.com/share/684b9d5eb0784b8cbf920f756d48d74a)
