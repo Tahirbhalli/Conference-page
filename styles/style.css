@@ -262,6 +262,10 @@ footer {
   .align-center {
     margin: 0 193px;
   }
+  
+  .pad-left {
+    padding-left: 8px;
+  }
 }
 
 @media screen and (max-width: 750px) {
