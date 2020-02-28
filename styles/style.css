@@ -190,6 +190,10 @@ footer {
   border: 1px solid rgb(206, 202, 202);
 }
 
+.number-width {
+  width: 60px;
+}
+
 @media screen and (max-width: 1000px) {
   .information div {
     align-items: center;
