@@ -208,7 +208,17 @@ footer {
 
 .sumit-height {
   height: 200px;
-  width: 300px;
+  max-width: 300px;
+}
+
+.persons div img {
+  border-radius: 5%;
+  height: 70%;
+  max-height: 300px;
+  min-width: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -252,14 +262,6 @@ footer {
 
 .heading-speaker {
   color: #ec5242;
-}
-
-.persons div img {
-  border-radius: 5%;
-  height: 70%;
-  padding-left: 10px;
-  padding-top: 10px;
-  width: 100%;
 }
 
 .persons div div {
